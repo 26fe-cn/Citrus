@@ -10,3 +10,5 @@
 屁股眼 citrus_embryo
 腐烂 rot
 ```
+
+python train.py --img 640 --epochs 300 --data ./data/coco128.yaml --cfg ./models/yolov5s.yaml --weights ./weights/yolov5s.pt --device 0 --batch-size 8
